@@ -3,5 +3,5 @@ secretGenerator:
   literals:
   - password=Redw00d!
 resources:
-- mysql-deployment.yaml
-- wordpress-deployment.yaml
+- https://raw.githubusercontent.com/syao3po/wordpress/master/mysql-deployment.yaml
+- https://raw.githubusercontent.com/syao3po/wordpress/master/wordpress-deployment.yaml
