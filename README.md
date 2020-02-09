@@ -24,4 +24,10 @@ folder
 # Step 3
 <pre>
 # kubectl apply -k ./
+secret/mysql-pass-bc925kcfmd created
+service/wordpress-mysql created
+service/wordpress created
+deployment.apps/wordpress-mysql created
+deployment.apps/wordpress created
+persistentvolumeclaim/mysql-pv-claim created
 </pre>
