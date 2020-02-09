@@ -1,13 +1,13 @@
 # wordpress
 
 Please make folder, and Download 3 files at same folder.
-
+<pre>
 folder
 |
 |----kustomization.yaml
 |----mysql-deployment.yaml
 |----wordpress-deployment.yaml
-
+</pre>
 ---------
 
 # Step 1
