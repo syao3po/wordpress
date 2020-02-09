@@ -13,6 +13,7 @@ folder
 # Step 1
 <pre>
 # mkdir folder ; cd folder
+# kubectl create ns wordpress
 </pre>
 
 # Step 2
@@ -23,7 +24,7 @@ folder
 </pre>
 # Step 3
 <pre>
-# kubectl apply -k ./
+# kubectl -n wordpress apply -k ./
 secret/mysql-pass-bc925kcfmd created
 service/wordpress-mysql created
 service/wordpress created
