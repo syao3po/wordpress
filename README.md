@@ -72,6 +72,6 @@ spec:
       - backend:
           serviceName: wordpress
           servicePort: 80
-        path: /
+        path: /wordpress
 EOF
 </pre>
