@@ -1,3 +1,5 @@
+https://github.com/docker-library/wordpress/tree/0df5de06a4f43f2790dfc3be92554a7e229115d9/php7.2/fpm-alpine
+
 # wordpress
 
 Please make folder, and Download 3 files at same folder.
