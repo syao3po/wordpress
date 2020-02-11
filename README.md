@@ -32,3 +32,28 @@ deployment.apps/wordpress-mysql created
 deployment.apps/wordpress created
 persistentvolumeclaim/mysql-pv-claim created
 </pre>
+
+# Step 4
+Ingress Controller Install
+
+
+
+# Step 5
+<pre>
+Create Ingress
+# kubectl delete -f - <<EOF
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: wordpress
+spec:
+  rules:
+  - host: $HOST
+    http:
+      paths:
+      - backend:
+          serviceName: wordpress
+          servicePort: 80
+        path: /
+EOF
+</pre>
