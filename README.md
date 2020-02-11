@@ -34,9 +34,24 @@ persistentvolumeclaim/mysql-pv-claim created
 </pre>
 
 # Step 4
-Ingress Controller Install
+1) Install go
+https://github.com/astaxie/build-web-application-with-golang/blob/master/ja/01.1.md
 
-
+<pre>
+# tar -C /usr/local/src -xzf go1.8.darwin-amd64.tar.gz
+# echo 'export GOROOT="/usr/local/src/go"' >> ~/.bash_profile
+# echo 'export PATH="$GOROOT/bin:$PATH"' >> ~/.bash_profile
+# source /etc/profile
+</pre>
+2) Ingress Controller Install
+https://github.com/jcmoraisjr/haproxy-ingress
+<pre>
+mkdir -p $GOPATH/src/github.com/jcmoraisjr
+cd $GOPATH/src/github.com/jcmoraisjr
+git clone https://github.com/jcmoraisjr/haproxy-ingress.git
+cd haproxy-ingress
+make
+</pre>
 
 # Step 5
 
