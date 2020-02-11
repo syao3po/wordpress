@@ -39,8 +39,9 @@ Ingress Controller Install
 
 
 # Step 5
-<pre>
+
 Create Ingress
+<pre>
 # kubectl delete -f - <<EOF
 apiVersion: extensions/v1beta1
 kind: Ingress
