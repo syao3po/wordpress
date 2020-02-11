@@ -41,8 +41,10 @@ Ingress Controller Install
 # Step 5
 
 Create Ingress
+
 <pre>
-# kubectl delete -f - << EOF
+# HOST=`hostname`
+# kubectl -n wordpress create -f - << EOF
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
